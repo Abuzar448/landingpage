@@ -1,0 +1,156 @@
+body{
+    background-color:rgb(251, 250, 250);
+}
+
+
+.header{
+    margin:0;
+    padding:0;
+    position:relative;
+}
+.first{
+    display:inline-block;
+    margin-left:8px;
+    position:absolute;
+    top: 12px; 
+    left:25px;
+}
+.first p{
+    font-size:25px;  
+    font-weight: 700;
+    cursor:pointer;
+    opacity:0.7;
+    /* transition:font-size 0.4s ease-in ; */
+}
+
+.first p:hover{
+    opacity:1.4;
+    font-size:26px;
+}
+.main_box .header .second   #same{
+    position:relative;
+    
+}
+.main_box .header .second .e #Anchor {
+    position:relative;
+    left:300px;
+    /* opacity:0.7; */
+    font-size:18px;
+    font-weight:700;
+}
+.main_box .header .second .e #Anchor:hover{
+    opacity:1;
+}
+.second{
+    display:inline-block;
+    position:absolute;
+    left: 670px;
+}
+.second i{
+    font-size: 13px;
+}
+.second #same button{
+    background-color:pink;
+    border-radius:20px;
+    border:1px solid black;
+    width:90px;
+    position:absolute;
+    top:20px;
+}
+
+.second #same a,i{
+    color:black;
+    text-decoration: none;
+    position:relative;
+    top:20px;
+    padding-right:2px;
+}
+
+#same{
+    display:inline-block;
+    margin:0 5px 0 5px ;
+    margin-right:15px;  
+}
+
+.main{
+    position:absolute;
+    top:130px;
+    
+}
+.main .body p{
+    /* position:absolute; */
+    position:relative;
+    font-size: 22px;
+    font-weight:400;
+    padding-left:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .body .body1{
+    font-size:14px;
+    font-weight: 300;
+    position:relative;
+    left:30px;
+}
+.main .body .body2 button{
+    position:relative;
+    left:30px;
+    background-color:pink;
+    border:1px slid black;
+    border-radius:20px;
+}
+.main .body .body4{
+    position:relative;
+    left:20px;
+    padding-left:6px;
+    width:70px;
+    border-radius:30px;
+    border:1px solid black;
+    background-color:bisque;
+}
+.main .body .body5{
+    position:relative;
+    left:25px;
+    font-size:14px;
+
+}
+
+.main .body .back{
+    position:absolute;
+    top:30px;
+    left:700px;
+    border-bottom: 1px solid black;
+    
+
+}
+
+.footer{
+    position:absolute;
+
+}
+.footer .email #one{
+    position:relative;
+    top:450px;
+    left:60px;
+    color:black;
+    text-decoration: none;
+    display:inline-block;
+}
+.footer .email #two{
+    position:relative;
+    top:450px;
+    left:440px;
+    padding-left:2px;
+    color:black;
+    text-decoration: none;
+    display:inline-block;
+    
+}
+.footer .email #social i{
+    opacity:0.6;
+}
+
+.main_box .footer .email #social i:hover{
+    opacity:1.5;
+}
+
